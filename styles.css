@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+input{
+  width: 190px;
+  height: 25px;
+}
+button{
+  height: 31px;
+  background-color:#3FB5F8;
+  border: none;
+}
+button:hover{
+  cursor: pointer;
+  background:#047EC4;
+}
+#result{
+  height: 400px;
+  overflow: auto;
+}
+#adviceNum {
+  background-color: #F7F9F9;
+  padding: 5px;
+  margin: 15px;
+border-radius: 4px;
+}
